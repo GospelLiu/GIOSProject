@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6EB66876-6B80-4402-8F52-5695AD09524A</string>
+	<string>5825B9C5-213B-4C8E-8421-40F34BB767A8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>GIOSProject</string>
+	<string>GIOSProjectWork</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5FC5C667DDDE437231B13098E279AA60B9204B77</key>
 		<string>https://github.com/GospelLiu/GIOSProject.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>GIOSProject.xcodeproj</string>
+	<string>GIOSProjectDemo/GIOSProjectWork.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5FC5C667DDDE437231B13098E279AA60B9204B77</key>
