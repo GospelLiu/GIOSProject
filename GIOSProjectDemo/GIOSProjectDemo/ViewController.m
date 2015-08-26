@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "GIOSLibrary.h"
+#import "GIOSKit.h"
 
 @interface ViewController ()
 

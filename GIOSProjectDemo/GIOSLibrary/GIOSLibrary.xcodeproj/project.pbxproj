@@ -10,7 +10,9 @@
 		C33644C61B86D75100450934 /* GIOSLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33644C51B86D75100450934 /* GIOSLibrary.h */; };
 		C33644C81B86D75100450934 /* GIOSLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C33644C71B86D75100450934 /* GIOSLibrary.m */; };
 		C33644CE1B86D75100450934 /* libGIOSLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C33644C21B86D75100450934 /* libGIOSLibrary.a */; };
-		C33644DF1B86D89F00450934 /* GIOSLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = C33644C51B86D75100450934 /* GIOSLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C33645511B87150200450934 /* GIOSCollectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C336454F1B87150200450934 /* GIOSCollectionHelper.m */; };
+		C33933D21B8D5EE000C502EE /* GIOSKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33645471B8700B000450934 /* GIOSKit.h */; };
+		C33933D31B8D5EE700C502EE /* GIOSCollectionHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C336454E1B87150200450934 /* GIOSCollectionHelper.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				C33933D31B8D5EE700C502EE /* GIOSCollectionHelper.h in CopyFiles */,
+				C33933D21B8D5EE000C502EE /* GIOSKit.h in CopyFiles */,
 				C33644C61B86D75100450934 /* GIOSLibrary.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,6 +46,9 @@
 		C33644C71B86D75100450934 /* GIOSLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIOSLibrary.m; sourceTree = "<group>"; };
 		C33644CD1B86D75100450934 /* GIOSLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIOSLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33644D31B86D75100450934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33645471B8700B000450934 /* GIOSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSKit.h; sourceTree = "<group>"; };
+		C336454E1B87150200450934 /* GIOSCollectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSCollectionHelper.h; sourceTree = "<group>"; };
+		C336454F1B87150200450934 /* GIOSCollectionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIOSCollectionHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +91,8 @@
 		C33644C41B86D75100450934 /* GIOSLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				C336454C1B87139C00450934 /* GIOSUtils */,
+				C33645461B87009900450934 /* GIOSLibKit */,
 				C33644C51B86D75100450934 /* GIOSLibrary.h */,
 				C33644C71B86D75100450934 /* GIOSLibrary.m */,
 			);
@@ -106,18 +115,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		C33644DE1B86D89100450934 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C33644DF1B86D89F00450934 /* GIOSLibrary.h in Headers */,
+		C33645461B87009900450934 /* GIOSLibKit */ = {
+			isa = PBXGroup;
+			children = (
+				C33645471B8700B000450934 /* GIOSKit.h */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			path = GIOSLibKit;
+			sourceTree = "<group>";
 		};
-/* End PBXHeadersBuildPhase section */
+		C336454C1B87139C00450934 /* GIOSUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C336454D1B8714CA00450934 /* CollectionHelper */,
+			);
+			path = GIOSUtils;
+			sourceTree = "<group>";
+		};
+		C336454D1B8714CA00450934 /* CollectionHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C336454E1B87150200450934 /* GIOSCollectionHelper.h */,
+				C336454F1B87150200450934 /* GIOSCollectionHelper.m */,
+			);
+			path = CollectionHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
 		C33644C11B86D75100450934 /* GIOSLibrary */ = {
@@ -127,7 +150,6 @@
 				C33644BE1B86D75100450934 /* Sources */,
 				C33644BF1B86D75100450934 /* Frameworks */,
 				C33644C01B86D75100450934 /* CopyFiles */,
-				C33644DE1B86D89100450934 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -207,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C33644C81B86D75100450934 /* GIOSLibrary.m in Sources */,
+				C33645511B87150200450934 /* GIOSCollectionHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +398,7 @@
 				C33644D81B86D75100450934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C33644D91B86D75100450934 /* Build configuration list for PBXNativeTarget "GIOSLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -383,6 +407,7 @@
 				C33644DB1B86D75100450934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
