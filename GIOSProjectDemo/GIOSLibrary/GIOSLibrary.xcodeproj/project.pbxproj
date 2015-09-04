@@ -9,21 +9,10 @@
 /* Begin PBXBuildFile section */
 		C33644C61B86D75100450934 /* GIOSLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33644C51B86D75100450934 /* GIOSLibrary.h */; };
 		C33644C81B86D75100450934 /* GIOSLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C33644C71B86D75100450934 /* GIOSLibrary.m */; };
-		C33644CE1B86D75100450934 /* libGIOSLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C33644C21B86D75100450934 /* libGIOSLibrary.a */; };
 		C33645511B87150200450934 /* GIOSCollectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C336454F1B87150200450934 /* GIOSCollectionHelper.m */; };
 		C33933D21B8D5EE000C502EE /* GIOSKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33645471B8700B000450934 /* GIOSKit.h */; };
 		C33933D31B8D5EE700C502EE /* GIOSCollectionHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C336454E1B87150200450934 /* GIOSCollectionHelper.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C33644CF1B86D75100450934 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C33644BA1B86D75100450934 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C33644C11B86D75100450934;
-			remoteInfo = GIOSLibrary;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C33644C01B86D75100450934 /* CopyFiles */ = {
@@ -44,8 +33,6 @@
 		C33644C21B86D75100450934 /* libGIOSLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGIOSLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33644C51B86D75100450934 /* GIOSLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIOSLibrary.h; sourceTree = "<group>"; };
 		C33644C71B86D75100450934 /* GIOSLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIOSLibrary.m; sourceTree = "<group>"; };
-		C33644CD1B86D75100450934 /* GIOSLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIOSLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C33644D31B86D75100450934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C33645471B8700B000450934 /* GIOSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSKit.h; sourceTree = "<group>"; };
 		C336454E1B87150200450934 /* GIOSCollectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSCollectionHelper.h; sourceTree = "<group>"; };
 		C336454F1B87150200450934 /* GIOSCollectionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIOSCollectionHelper.m; sourceTree = "<group>"; };
@@ -59,14 +46,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C33644CA1B86D75100450934 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C33644CE1B86D75100450934 /* libGIOSLibrary.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				C33644C41B86D75100450934 /* GIOSLibrary */,
-				C33644D11B86D75100450934 /* GIOSLibraryTests */,
 				C33644C31B86D75100450934 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				C33644C21B86D75100450934 /* libGIOSLibrary.a */,
-				C33644CD1B86D75100450934 /* GIOSLibraryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,22 +74,6 @@
 				C33644C71B86D75100450934 /* GIOSLibrary.m */,
 			);
 			path = GIOSLibrary;
-			sourceTree = "<group>";
-		};
-		C33644D11B86D75100450934 /* GIOSLibraryTests */ = {
-			isa = PBXGroup;
-			children = (
-				C33644D21B86D75100450934 /* Supporting Files */,
-			);
-			path = GIOSLibraryTests;
-			sourceTree = "<group>";
-		};
-		C33644D21B86D75100450934 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C33644D31B86D75100450934 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		C33645461B87009900450934 /* GIOSLibKit */ = {
@@ -160,24 +121,6 @@
 			productReference = C33644C21B86D75100450934 /* libGIOSLibrary.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C33644CC1B86D75100450934 /* GIOSLibraryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C33644D91B86D75100450934 /* Build configuration list for PBXNativeTarget "GIOSLibraryTests" */;
-			buildPhases = (
-				C33644C91B86D75100450934 /* Sources */,
-				C33644CA1B86D75100450934 /* Frameworks */,
-				C33644CB1B86D75100450934 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C33644D01B86D75100450934 /* PBXTargetDependency */,
-			);
-			name = GIOSLibraryTests;
-			productName = GIOSLibraryTests;
-			productReference = C33644CD1B86D75100450934 /* GIOSLibraryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,9 +131,6 @@
 				ORGANIZATIONNAME = liufuyin;
 				TargetAttributes = {
 					C33644C11B86D75100450934 = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					C33644CC1B86D75100450934 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -208,20 +148,9 @@
 			projectRoot = "";
 			targets = (
 				C33644C11B86D75100450934 /* GIOSLibrary */,
-				C33644CC1B86D75100450934 /* GIOSLibraryTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		C33644CB1B86D75100450934 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C33644BE1B86D75100450934 /* Sources */ = {
@@ -233,22 +162,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C33644C91B86D75100450934 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C33644D01B86D75100450934 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C33644C11B86D75100450934 /* GIOSLibrary */;
-			targetProxy = C33644CF1B86D75100450934 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C33644D41B86D75100450934 /* Debug */ = {
@@ -286,7 +200,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -322,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,38 +261,6 @@
 			};
 			name = Release;
 		};
-		C33644DA1B86D75100450934 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GIOSLibraryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		C33644DB1B86D75100450934 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GIOSLibraryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -396,15 +278,6 @@
 			buildConfigurations = (
 				C33644D71B86D75100450934 /* Debug */,
 				C33644D81B86D75100450934 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C33644D91B86D75100450934 /* Build configuration list for PBXNativeTarget "GIOSLibraryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C33644DA1B86D75100450934 /* Debug */,
-				C33644DB1B86D75100450934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
