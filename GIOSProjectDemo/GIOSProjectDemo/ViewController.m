@@ -17,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
     [GIOSLibrary TestLogA];
 }
@@ -26,4 +28,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)viewDidAppear:(BOOL)animated
+{
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 50, 100)];
+    [btn setBackgroundColor:[UIColor redColor]];
+    [btn  addTarget:self action:@selector(test) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+
+-(void)test
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"tel://%@", @"18701433104"]]];
+}
 @end
