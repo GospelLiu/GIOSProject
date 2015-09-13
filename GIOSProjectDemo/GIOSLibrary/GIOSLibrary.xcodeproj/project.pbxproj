@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33644C61B86D75100450934 /* GIOSLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33644C51B86D75100450934 /* GIOSLibrary.h */; };
+		C33644C81B86D75100450934 /* GIOSLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C33644C71B86D75100450934 /* GIOSLibrary.m */; };
+		C33645511B87150200450934 /* GIOSCollectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C336454F1B87150200450934 /* GIOSCollectionHelper.m */; };
+		C33933D21B8D5EE000C502EE /* GIOSKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33645471B8700B000450934 /* GIOSKit.h */; };
+		C33933D31B8D5EE700C502EE /* GIOSCollectionHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C336454E1B87150200450934 /* GIOSCollectionHelper.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C33644C01B86D75100450934 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C33933D31B8D5EE700C502EE /* GIOSCollectionHelper.h in CopyFiles */,
+				C33933D21B8D5EE000C502EE /* GIOSKit.h in CopyFiles */,
+				C33644C61B86D75100450934 /* GIOSLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C33644C21B86D75100450934 /* libGIOSLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGIOSLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33644C51B86D75100450934 /* GIOSLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIOSLibrary.h; sourceTree = "<group>"; };
+		C33644C71B86D75100450934 /* GIOSLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIOSLibrary.m; sourceTree = "<group>"; };
+		C33645471B8700B000450934 /* GIOSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSKit.h; sourceTree = "<group>"; };
+		C336454E1B87150200450934 /* GIOSCollectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSCollectionHelper.h; sourceTree = "<group>"; };
+		C336454F1B87150200450934 /* GIOSCollectionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIOSCollectionHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33644BF1B86D75100450934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33644B91B86D75100450934 = {
+			isa = PBXGroup;
+			children = (
+				C33644C41B86D75100450934 /* GIOSLibrary */,
+				C33644C31B86D75100450934 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33644C31B86D75100450934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33644C21B86D75100450934 /* libGIOSLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33644C41B86D75100450934 /* GIOSLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				C336454C1B87139C00450934 /* GIOSUtils */,
+				C33645461B87009900450934 /* GIOSLibKit */,
+				C33644C51B86D75100450934 /* GIOSLibrary.h */,
+				C33644C71B86D75100450934 /* GIOSLibrary.m */,
+			);
+			path = GIOSLibrary;
+			sourceTree = "<group>";
+		};
+		C33645461B87009900450934 /* GIOSLibKit */ = {
+			isa = PBXGroup;
+			children = (
+				C33645471B8700B000450934 /* GIOSKit.h */,
+			);
+			path = GIOSLibKit;
+			sourceTree = "<group>";
+		};
+		C336454C1B87139C00450934 /* GIOSUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C336454D1B8714CA00450934 /* CollectionHelper */,
+			);
+			path = GIOSUtils;
+			sourceTree = "<group>";
+		};
+		C336454D1B8714CA00450934 /* CollectionHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C336454E1B87150200450934 /* GIOSCollectionHelper.h */,
+				C336454F1B87150200450934 /* GIOSCollectionHelper.m */,
+			);
+			path = CollectionHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33644C11B86D75100450934 /* GIOSLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33644D61B86D75100450934 /* Build configuration list for PBXNativeTarget "GIOSLibrary" */;
+			buildPhases = (
+				C33644BE1B86D75100450934 /* Sources */,
+				C33644BF1B86D75100450934 /* Frameworks */,
+				C33644C01B86D75100450934 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GIOSLibrary;
+			productName = GIOSLibrary;
+			productReference = C33644C21B86D75100450934 /* libGIOSLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33644BA1B86D75100450934 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = liufuyin;
+				TargetAttributes = {
+					C33644C11B86D75100450934 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = C33644BD1B86D75100450934 /* Build configuration list for PBXProject "GIOSLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C33644B91B86D75100450934;
+			productRefGroup = C33644C31B86D75100450934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33644C11B86D75100450934 /* GIOSLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33644BE1B86D75100450934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33644C81B86D75100450934 /* GIOSLibrary.m in Sources */,
+				C33645511B87150200450934 /* GIOSCollectionHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C33644D41B86D75100450934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C33644D51B86D75100450934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33644D71B86D75100450934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C33644D81B86D75100450934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33644BD1B86D75100450934 /* Build configuration list for PBXProject "GIOSLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33644D41B86D75100450934 /* Debug */,
+				C33644D51B86D75100450934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33644D61B86D75100450934 /* Build configuration list for PBXNativeTarget "GIOSLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33644D71B86D75100450934 /* Debug */,
+				C33644D81B86D75100450934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33644BA1B86D75100450934 /* Project object */;
+}

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C35B83731B85BD2D005833C0"
-               BuildableName = "GIOSProject.app"
-               BlueprintName = "GIOSProject"
-               ReferencedContainer = "container:GIOSProject.xcodeproj">
+               BlueprintIdentifier = "C33644C11B86D75100450934"
+               BuildableName = "libGIOSLibrary.a"
+               BlueprintName = "GIOSLibrary"
+               ReferencedContainer = "container:GIOSLibrary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C35B838C1B85BD2D005833C0"
-               BuildableName = "GIOSProjectTests.xctest"
-               BlueprintName = "GIOSProjectTests"
-               ReferencedContainer = "container:GIOSProject.xcodeproj">
+               BlueprintIdentifier = "C33644CC1B86D75100450934"
+               BuildableName = "GIOSLibraryTests.xctest"
+               BlueprintName = "GIOSLibraryTests"
+               ReferencedContainer = "container:GIOSLibrary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C35B838C1B85BD2D005833C0"
-               BuildableName = "GIOSProjectTests.xctest"
-               BlueprintName = "GIOSProjectTests"
-               ReferencedContainer = "container:GIOSProject.xcodeproj">
+               BlueprintIdentifier = "C33644CC1B86D75100450934"
+               BuildableName = "GIOSLibraryTests.xctest"
+               BlueprintName = "GIOSLibraryTests"
+               ReferencedContainer = "container:GIOSLibrary.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C35B83731B85BD2D005833C0"
-            BuildableName = "GIOSProject.app"
-            BlueprintName = "GIOSProject"
-            ReferencedContainer = "container:GIOSProject.xcodeproj">
+            BlueprintIdentifier = "C33644C11B86D75100450934"
+            BuildableName = "libGIOSLibrary.a"
+            BlueprintName = "GIOSLibrary"
+            ReferencedContainer = "container:GIOSLibrary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,16 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C35B83731B85BD2D005833C0"
-            BuildableName = "GIOSProject.app"
-            BlueprintName = "GIOSProject"
-            ReferencedContainer = "container:GIOSProject.xcodeproj">
+            BlueprintIdentifier = "C33644C11B86D75100450934"
+            BuildableName = "libGIOSLibrary.a"
+            BlueprintName = "GIOSLibrary"
+            ReferencedContainer = "container:GIOSLibrary.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C35B83731B85BD2D005833C0"
-            BuildableName = "GIOSProject.app"
-            BlueprintName = "GIOSProject"
-            ReferencedContainer = "container:GIOSProject.xcodeproj">
+            BlueprintIdentifier = "C33644C11B86D75100450934"
+            BuildableName = "libGIOSLibrary.a"
+            BlueprintName = "GIOSLibrary"
+            ReferencedContainer = "container:GIOSLibrary.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
