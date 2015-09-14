@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "GIOSKit.h"
-
+#import <CommonCrypto/CommonDigest.h>
 @interface ViewController ()
 
 @end
@@ -34,10 +34,30 @@
     [btn setBackgroundColor:[UIColor redColor]];
     [btn  addTarget:self action:@selector(test) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
 }
 
 -(void)test
 {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"tel://%@", @"18701433104"]]];
+    NSString *str = @"http://www.baidu.com";
+
+    
+    NSLog(@"%f",[[NSDate date] timeIntervalSince1970]);
+        NSInteger resultStr = [str hash];
+    
+    NSLog(@"%f",[[NSDate date] timeIntervalSince1970]);
+     NSLog(@"%li",(long)resultStr);
+    
+    const char *cStr = [str UTF8String];
+    unsigned char digest[16];
+    CC_MD5( cStr, (unsigned int)strlen(cStr), digest ); // This is the md5 call
+    
+    NSMutableString *output = [NSMutableString stringWithCapacity:CC_MD5_DIGEST_LENGTH * 2];
+    
+    for(int i = 0; i < CC_MD5_DIGEST_LENGTH; i++)
+        [output appendFormat:@"%02x", digest[i]];
+    
+    
+    NSLog(@"%@",output);
 }
 @end
