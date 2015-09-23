@@ -20,7 +20,7 @@
     
     
     // Do any additional setup after loading the view, typically from a nib.
-    [GIOSLibrary TestLogA];
+    [GIOS(Library) TestLogA];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,25 +39,13 @@
 
 -(void)test
 {
-    NSString *str = @"http://www.baidu.com";
+    NSString *str = @"https://www.baidu.com";
 
+    UIWebView *webview  = [[UIWebView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview: webview];
+    [webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];
     
-    NSLog(@"%f",[[NSDate date] timeIntervalSince1970]);
-        NSInteger resultStr = [str hash];
+    [GIOS(Library) TestLogA];
     
-    NSLog(@"%f",[[NSDate date] timeIntervalSince1970]);
-     NSLog(@"%li",(long)resultStr);
-    
-    const char *cStr = [str UTF8String];
-    unsigned char digest[16];
-    CC_MD5( cStr, (unsigned int)strlen(cStr), digest ); // This is the md5 call
-    
-    NSMutableString *output = [NSMutableString stringWithCapacity:CC_MD5_DIGEST_LENGTH * 2];
-    
-    for(int i = 0; i < CC_MD5_DIGEST_LENGTH; i++)
-        [output appendFormat:@"%02x", digest[i]];
-    
-    
-    NSLog(@"%@",output);
 }
 @end

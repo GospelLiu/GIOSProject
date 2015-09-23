@@ -8,11 +8,12 @@
 
 #import "GIOSLibrary.h"
 
-@implementation GIOSLibrary
+@implementation GIOS(Library)
 
 +(void)TestLogA
 {
-    NSLog(@"Test...");
+    NSString *className = NSStringFromClass( [self class]);
+    NSLog(@"gospel :%@",className);
 }
 
 

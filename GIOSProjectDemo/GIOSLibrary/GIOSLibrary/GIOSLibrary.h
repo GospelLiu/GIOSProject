@@ -7,8 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GIOSDefine.h"
 
-@interface GIOSLibrary : NSObject
+
+@interface  GIOS(Library) : NSObject
+{
+    
+}
 
 +(void)TestLogA;
 

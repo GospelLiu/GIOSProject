@@ -9,3 +9,4 @@
 
 #import "GIOSLibrary.h"
 #import "GIOSCollectionHelper.h"
+#import "GIOSDefine.h"

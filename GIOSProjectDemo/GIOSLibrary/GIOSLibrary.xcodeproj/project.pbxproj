@@ -10,8 +10,8 @@
 		C33644C61B86D75100450934 /* GIOSLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33644C51B86D75100450934 /* GIOSLibrary.h */; };
 		C33644C81B86D75100450934 /* GIOSLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C33644C71B86D75100450934 /* GIOSLibrary.m */; };
 		C33645511B87150200450934 /* GIOSCollectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C336454F1B87150200450934 /* GIOSCollectionHelper.m */; };
-		C33933D21B8D5EE000C502EE /* GIOSKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33645471B8700B000450934 /* GIOSKit.h */; };
 		C33933D31B8D5EE700C502EE /* GIOSCollectionHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C336454E1B87150200450934 /* GIOSCollectionHelper.h */; };
+		C37468D91BB26B8400C5463D /* GIOSDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C37468D81BB26A4300C5463D /* GIOSDefine.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -21,8 +21,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				C37468D91BB26B8400C5463D /* GIOSDefine.h in CopyFiles */,
 				C33933D31B8D5EE700C502EE /* GIOSCollectionHelper.h in CopyFiles */,
-				C33933D21B8D5EE000C502EE /* GIOSKit.h in CopyFiles */,
 				C33644C61B86D75100450934 /* GIOSLibrary.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,9 +33,11 @@
 		C33644C21B86D75100450934 /* libGIOSLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGIOSLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33644C51B86D75100450934 /* GIOSLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIOSLibrary.h; sourceTree = "<group>"; };
 		C33644C71B86D75100450934 /* GIOSLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIOSLibrary.m; sourceTree = "<group>"; };
-		C33645471B8700B000450934 /* GIOSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSKit.h; sourceTree = "<group>"; };
 		C336454E1B87150200450934 /* GIOSCollectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSCollectionHelper.h; sourceTree = "<group>"; };
 		C336454F1B87150200450934 /* GIOSCollectionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIOSCollectionHelper.m; sourceTree = "<group>"; };
+		C37467DA1BB2651600C5463D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C37467DC1BB2670500C5463D /* GIOSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSKit.h; sourceTree = "<group>"; };
+		C37468D81BB26A4300C5463D /* GIOSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,20 +70,13 @@
 		C33644C41B86D75100450934 /* GIOSLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				C336454C1B87139C00450934 /* GIOSUtils */,
-				C33645461B87009900450934 /* GIOSLibKit */,
 				C33644C51B86D75100450934 /* GIOSLibrary.h */,
 				C33644C71B86D75100450934 /* GIOSLibrary.m */,
+				C37467DB1BB2670500C5463D /* GIOSLibKit */,
+				C336454C1B87139C00450934 /* GIOSUtils */,
+				C37467D91BB2646F00C5463D /* Supporting Files */,
 			);
 			path = GIOSLibrary;
-			sourceTree = "<group>";
-		};
-		C33645461B87009900450934 /* GIOSLibKit */ = {
-			isa = PBXGroup;
-			children = (
-				C33645471B8700B000450934 /* GIOSKit.h */,
-			);
-			path = GIOSLibKit;
 			sourceTree = "<group>";
 		};
 		C336454C1B87139C00450934 /* GIOSUtils */ = {
@@ -99,6 +94,23 @@
 				C336454F1B87150200450934 /* GIOSCollectionHelper.m */,
 			);
 			path = CollectionHelper;
+			sourceTree = "<group>";
+		};
+		C37467D91BB2646F00C5463D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C37467DA1BB2651600C5463D /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C37467DB1BB2670500C5463D /* GIOSLibKit */ = {
+			isa = PBXGroup;
+			children = (
+				C37468D81BB26A4300C5463D /* GIOSDefine.h */,
+				C37467DC1BB2670500C5463D /* GIOSKit.h */,
+			);
+			path = GIOSLibKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
