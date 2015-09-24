@@ -65,6 +65,7 @@
 		C33645051B86E2FF00450934 /* GIOSProjectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C36A4DCA1BB3BC040028009B /* test */,
 				C336450A1B86E2FF00450934 /* AppDelegate.h */,
 				C336450B1B86E2FF00450934 /* AppDelegate.m */,
 				C336450D1B86E2FF00450934 /* ViewController.h */,
@@ -93,6 +94,13 @@
 				C336453D1B86EC6600450934 /* JavaScriptCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C36A4DCA1BB3BC040028009B /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

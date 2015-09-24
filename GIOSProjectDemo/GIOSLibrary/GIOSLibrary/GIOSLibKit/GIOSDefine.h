@@ -9,7 +9,7 @@
 //#ifndef GIOSDefine_h
 //#define GIOSDefine_h
 
-
+//类名的宏定义，改前缀的时候比较容易，模拟命名空间
 #define GIOS(_className_)  GIOS##_className_
 
 

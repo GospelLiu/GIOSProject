@@ -11,6 +11,7 @@
 		C33644C81B86D75100450934 /* GIOSLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C33644C71B86D75100450934 /* GIOSLibrary.m */; };
 		C33645511B87150200450934 /* GIOSCollectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C336454F1B87150200450934 /* GIOSCollectionHelper.m */; };
 		C33933D31B8D5EE700C502EE /* GIOSCollectionHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C336454E1B87150200450934 /* GIOSCollectionHelper.h */; };
+		C36A4D0E1BB3B36B0028009B /* GIOSStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A4D0D1BB3B36B0028009B /* GIOSStringHelper.m */; settings = {ASSET_TAGS = (); }; };
 		C37468D91BB26B8400C5463D /* GIOSDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C37468D81BB26A4300C5463D /* GIOSDefine.h */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		C33644C71B86D75100450934 /* GIOSLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIOSLibrary.m; sourceTree = "<group>"; };
 		C336454E1B87150200450934 /* GIOSCollectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSCollectionHelper.h; sourceTree = "<group>"; };
 		C336454F1B87150200450934 /* GIOSCollectionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIOSCollectionHelper.m; sourceTree = "<group>"; };
+		C36A4D0C1BB3B36B0028009B /* GIOSStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSStringHelper.h; sourceTree = "<group>"; };
+		C36A4D0D1BB3B36B0028009B /* GIOSStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIOSStringHelper.m; sourceTree = "<group>"; };
 		C37467DA1BB2651600C5463D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C37467DC1BB2670500C5463D /* GIOSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSKit.h; sourceTree = "<group>"; };
 		C37468D81BB26A4300C5463D /* GIOSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIOSDefine.h; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 			children = (
 				C336454E1B87150200450934 /* GIOSCollectionHelper.h */,
 				C336454F1B87150200450934 /* GIOSCollectionHelper.m */,
+				C36A4D0C1BB3B36B0028009B /* GIOSStringHelper.h */,
+				C36A4D0D1BB3B36B0028009B /* GIOSStringHelper.m */,
 			);
 			path = CollectionHelper;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C33644C81B86D75100450934 /* GIOSLibrary.m in Sources */,
+				C36A4D0E1BB3B36B0028009B /* GIOSStringHelper.m in Sources */,
 				C33645511B87150200450934 /* GIOSCollectionHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

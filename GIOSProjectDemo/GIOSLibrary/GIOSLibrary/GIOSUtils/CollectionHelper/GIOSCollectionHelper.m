@@ -8,7 +8,7 @@
 
 #import "GIOSCollectionHelper.h"
 
-@implementation GIOSDictionaryUtil
+@implementation GIOS(DictionaryUtil)
 
 +(id)getIdValueForKey:(NSString*)key defaultValue:(id)value formDic:(NSDictionary*)dic withType:(Class)type
 {

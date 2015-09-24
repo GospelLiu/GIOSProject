@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GIOSDefine.h"
 
-@interface GIOSDictionaryUtil : NSObject
+@interface GIOS(DictionaryUtil): NSObject
 
 +(id)getIdValueForKey:(NSString*)key defaultValue:(id)value formDic:(NSDictionary*)dic withType:(Class)type;
 @end
