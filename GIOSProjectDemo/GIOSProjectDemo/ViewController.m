@@ -9,7 +9,18 @@
 #import "ViewController.h"
 #import "GIOSKit.h"
 #import <CommonCrypto/CommonDigest.h>
+#import <JavaScriptCore/JavaScriptCore.h>
+
+
+#define object_validate(object, default_value) ((object) == nil ? (default_value) : (object))
+
 @interface ViewController ()
+{
+}
+
+@property(nonatomic,strong)NSTimer *testTimer;
+@property(nonatomic)NSDate *mDateBegin;
+@property(nonatomic)NSTimeInterval mTime;
 
 @end
 
@@ -18,34 +29,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    // Do any additional setup after loading the view, typically from a nib.
-    [GIOS(Library) TestLogA];
+    CGRect rect = CGRectMake(0, 0, 0, 0);
+    UIView *view = [[UIView alloc] initWithFrame:rect];
+ 
 }
+
+-(void)creatBannerView
+{
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 50, 100)];
-    [btn setBackgroundColor:[UIColor redColor]];
-    [btn  addTarget:self action:@selector(test) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+    NSLog(@"adfa");
     
 }
 
--(void)test
-{
-    NSString *str = @"https://www.baidu.com";
-
-    UIWebView *webview  = [[UIWebView alloc] initWithFrame:self.view.bounds];
-    [self.view addSubview: webview];
-    [webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];
-    
-    [GIOS(Library) TestLogA];
-    
-}
 @end
