@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C314096C1D146B0000864AB2 /* libGIOSLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C314096B1D146B0000864AB2 /* libGIOSLibrary.a */; };
 		C33645091B86E2FF00450934 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33645081B86E2FF00450934 /* main.m */; };
 		C336450C1B86E2FF00450934 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C336450B1B86E2FF00450934 /* AppDelegate.m */; };
 		C336450F1B86E2FF00450934 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C336450E1B86E2FF00450934 /* ViewController.m */; };
@@ -14,10 +15,10 @@
 		C33645141B86E2FF00450934 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33645131B86E2FF00450934 /* Images.xcassets */; };
 		C33645171B86E2FF00450934 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33645151B86E2FF00450934 /* LaunchScreen.xib */; };
 		C336453E1B86EC6600450934 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C336453D1B86EC6600450934 /* JavaScriptCore.framework */; };
-		C33934081B8DB5C500C502EE /* libGIOSLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C33934071B8DB5C500C502EE /* libGIOSLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C314096B1D146B0000864AB2 /* libGIOSLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGIOSLibrary.a; path = "../../../../../Library/Developer/Xcode/DerivedData/GIOSProjectWork-fdiqgtrggeuexbbrfkjofeojpvnf/Build/Products/Debug-iphoneos/libGIOSLibrary.a"; sourceTree = "<group>"; };
 		C33645031B86E2FF00450934 /* GIOSProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIOSProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33645071B86E2FF00450934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C33645081B86E2FF00450934 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		C33645131B86E2FF00450934 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C33645161B86E2FF00450934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C336453D1B86EC6600450934 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		C33934071B8DB5C500C502EE /* libGIOSLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGIOSLibrary.a; path = "GIOSLibrary/build/Debug-iphoneos/libGIOSLibrary.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C33934081B8DB5C500C502EE /* libGIOSLibrary.a in Frameworks */,
+				C314096C1D146B0000864AB2 /* libGIOSLibrary.a in Frameworks */,
 				C336453E1B86EC6600450934 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,8 +70,8 @@
 				C336450D1B86E2FF00450934 /* ViewController.h */,
 				C336450E1B86E2FF00450934 /* ViewController.m */,
 				C33645101B86E2FF00450934 /* Main.storyboard */,
-				C33645131B86E2FF00450934 /* Images.xcassets */,
 				C33645151B86E2FF00450934 /* LaunchScreen.xib */,
+				C33645131B86E2FF00450934 /* Images.xcassets */,
 				C33645061B86E2FF00450934 /* Supporting Files */,
 			);
 			path = GIOSProjectDemo;
@@ -89,7 +89,7 @@
 		C336453C1B86EC5D00450934 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C33934071B8DB5C500C502EE /* libGIOSLibrary.a */,
+				C314096B1D146B0000864AB2 /* libGIOSLibrary.a */,
 				C336453D1B86EC6600450934 /* JavaScriptCore.framework */,
 			);
 			name = Frameworks;
@@ -291,8 +291,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GIOSLibrary/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/GIOSProjectDemo/SmartMad",
 					"$(PROJECT_DIR)/GIOSProjectDemo/libs",
+					"$(PROJECT_DIR)/GIOSProjectDemo",
 				);
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -319,8 +319,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GIOSLibrary/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/GIOSProjectDemo/SmartMad",
 					"$(PROJECT_DIR)/GIOSProjectDemo/libs",
+					"$(PROJECT_DIR)/GIOSProjectDemo",
 				);
 				OTHER_LDFLAGS = (
 					"-all_load",

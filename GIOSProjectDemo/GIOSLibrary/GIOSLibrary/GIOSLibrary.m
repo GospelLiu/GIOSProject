@@ -10,10 +10,14 @@
 
 @implementation GIOS(Library)
 
++(void)load
+{
+
+}
+
 +(void)TestLogA
 {
-    NSString *className = NSStringFromClass( [self class]);
-    NSLog(@"gospel :%@",className);
+ 
 }
 
 

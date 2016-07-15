@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		C33644C61B86D75100450934 /* GIOSLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33644C51B86D75100450934 /* GIOSLibrary.h */; };
 		C33644C81B86D75100450934 /* GIOSLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C33644C71B86D75100450934 /* GIOSLibrary.m */; };
-		C36A4DD21BB3BFEA0028009B /* GIOSCollectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A4DCE1BB3BFEA0028009B /* GIOSCollectionHelper.m */; settings = {ASSET_TAGS = (); }; };
-		C36A4DD31BB3BFEA0028009B /* GIOSStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A4DD01BB3BFEA0028009B /* GIOSStringHelper.m */; settings = {ASSET_TAGS = (); }; };
+		C36A4DD21BB3BFEA0028009B /* GIOSCollectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A4DCE1BB3BFEA0028009B /* GIOSCollectionHelper.m */; };
+		C36A4DD31BB3BFEA0028009B /* GIOSStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A4DD01BB3BFEA0028009B /* GIOSStringHelper.m */; };
 		C37468D91BB26B8400C5463D /* GIOSDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C37468D81BB26A4300C5463D /* GIOSDefine.h */; };
+		C3C5E2501D052218006A361D /* GIOSKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C37467DC1BB2670500C5463D /* GIOSKit.h */; };
+		C3C5E2511D0522F4006A361D /* GIOSCollectionHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36A4DCF1BB3BFEA0028009B /* GIOSCollectionHelper.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -21,6 +23,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				C3C5E2511D0522F4006A361D /* GIOSCollectionHelper.h in CopyFiles */,
+				C3C5E2501D052218006A361D /* GIOSKit.h in CopyFiles */,
 				C37468D91BB26B8400C5463D /* GIOSDefine.h in CopyFiles */,
 				C33644C61B86D75100450934 /* GIOSLibrary.h in CopyFiles */,
 			);

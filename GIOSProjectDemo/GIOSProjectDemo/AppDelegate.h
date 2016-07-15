@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+void SignalHandler(int signal);
+void HandleException(NSException *exception);
+void SignalHandler1(int signal);
+void HandleException1(NSException *exception);
+void InstallUncaughtExceptionHandler(NSUncaughtExceptionHandler *handleExp,void (*handleSignal)(int));
+
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

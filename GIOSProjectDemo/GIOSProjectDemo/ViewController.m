@@ -10,44 +10,52 @@
 #import "GIOSKit.h"
 #import <CommonCrypto/CommonDigest.h>
 #import <JavaScriptCore/JavaScriptCore.h>
+#import "AppDelegate.h"
+ 
 
-
-#define object_validate(object, default_value) ((object) == nil ? (default_value) : (object))
 
 @interface ViewController ()
 {
 }
-
-@property(nonatomic,strong)NSTimer *testTimer;
-@property(nonatomic)NSDate *mDateBegin;
-@property(nonatomic)NSTimeInterval mTime;
+@property(nonatomic,strong)UIWebView *mWebView;
+@property(nonatomic,strong)NSDictionary *mTmp;
+@property(nonatomic)BOOL mUICreated;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    CGRect rect = CGRectMake(0, 0, 0, 0);
-    UIView *view = [[UIView alloc] initWithFrame:rect];
- 
-}
-
--(void)creatBannerView
+-(instancetype)init
 {
-    
+    self = [super init];
+    if (self) {
+        _mUICreated = NO;
+    }
+    return self;
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+- (void)viewDidLoad{
+    
+    NSUInteger a = 100;
+    
+    NSNumber *testNum = @(a);
+    NSLog(@"%@",testNum);
 }
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    NSLog(@"adfa");
-    
 }
 
+#pragma mark 点击下载
+
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+}
+
+
 @end
+
+
+
