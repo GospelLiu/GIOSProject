@@ -17,7 +17,7 @@
 
 +(void)TestLogA
 {
- 
+    NSLog(@"testLog");
 }
 
 

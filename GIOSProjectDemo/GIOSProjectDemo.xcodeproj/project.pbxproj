@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C314096C1D146B0000864AB2 /* libGIOSLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C314096B1D146B0000864AB2 /* libGIOSLibrary.a */; };
 		C33645091B86E2FF00450934 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33645081B86E2FF00450934 /* main.m */; };
 		C336450C1B86E2FF00450934 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C336450B1B86E2FF00450934 /* AppDelegate.m */; };
 		C336450F1B86E2FF00450934 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C336450E1B86E2FF00450934 /* ViewController.m */; };
@@ -15,10 +14,38 @@
 		C33645141B86E2FF00450934 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33645131B86E2FF00450934 /* Images.xcassets */; };
 		C33645171B86E2FF00450934 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33645151B86E2FF00450934 /* LaunchScreen.xib */; };
 		C336453E1B86EC6600450934 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C336453D1B86EC6600450934 /* JavaScriptCore.framework */; };
+		C3881C451D6158DD0098779C /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3881C441D6158DD0098779C /* UTDID.framework */; };
+		C3881C461D61592D0098779C /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3881C441D6158DD0098779C /* UTDID.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		C3A02F5C1D796821008EE6CA /* HTTPSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A02F5B1D796821008EE6CA /* HTTPSTest.m */; };
+		C3A02F5F1D796DD5008EE6CA /* RequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A02F5E1D796DD5008EE6CA /* RequestOperation.m */; };
+		C3A02F611D7977FF008EE6CA /* advideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3A02F601D7977FF008EE6CA /* advideo.mp4 */; };
+		C3C783391D630A670002A4D6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C783381D630A670002A4D6 /* WebKit.framework */; };
+		C3D0A6C91D796098009B546B /* WebVideoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D0A6C81D796098009B546B /* WebVideoTest.m */; };
+		C3DD4E151D77D51E00B90AE9 /* mov_bbb.ogg in Resources */ = {isa = PBXBuildFile; fileRef = C3DD4E141D77D51E00B90AE9 /* mov_bbb.ogg */; };
+		C3DD4E171D77FB0A00B90AE9 /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = C3DD4E161D77FB0A00B90AE9 /* test.gif */; };
+		C3DD4E1A1D782CA300B90AE9 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DD4E191D782CA300B90AE9 /* TableViewCell.m */; };
+		C3E54FF41D5753DC00E41379 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E54FF31D5753DC00E41379 /* Security.framework */; };
+		C3E54FF61D57582500E41379 /* CA-Cert.pem in Resources */ = {isa = PBXBuildFile; fileRef = C3E54FF51D57582500E41379 /* CA-Cert.pem */; };
+		C3E54FF81D57818A00E41379 /* CA-Cert.cer in Resources */ = {isa = PBXBuildFile; fileRef = C3E54FF71D57818A00E41379 /* CA-Cert.cer */; };
+		C3E728E61D5F532C00BDC272 /* TestLibA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3E728E51D5F532C00BDC272 /* TestLibA.h */; };
+		C3E728E81D5F532C00BDC272 /* TestLibA.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E728E71D5F532C00BDC272 /* TestLibA.m */; };
+		C3FB78DC1D7019D700A3411A /* MyWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FB78DB1D7019D700A3411A /* MyWebview.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C3E728E11D5F532C00BDC272 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C3E728E61D5F532C00BDC272 /* TestLibA.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		C314096B1D146B0000864AB2 /* libGIOSLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGIOSLibrary.a; path = "../../../../../Library/Developer/Xcode/DerivedData/GIOSProjectWork-fdiqgtrggeuexbbrfkjofeojpvnf/Build/Products/Debug-iphoneos/libGIOSLibrary.a"; sourceTree = "<group>"; };
 		C33645031B86E2FF00450934 /* GIOSProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIOSProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33645071B86E2FF00450934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C33645081B86E2FF00450934 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -30,6 +57,28 @@
 		C33645131B86E2FF00450934 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C33645161B86E2FF00450934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C336453D1B86EC6600450934 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C3881C441D6158DD0098779C /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = AID/UTDID.framework; sourceTree = "<group>"; };
+		C3A02F5A1D796821008EE6CA /* HTTPSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPSTest.h; sourceTree = "<group>"; };
+		C3A02F5B1D796821008EE6CA /* HTTPSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPSTest.m; sourceTree = "<group>"; };
+		C3A02F5D1D796DD5008EE6CA /* RequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestOperation.h; sourceTree = "<group>"; };
+		C3A02F5E1D796DD5008EE6CA /* RequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestOperation.m; sourceTree = "<group>"; };
+		C3A02F601D7977FF008EE6CA /* advideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = advideo.mp4; sourceTree = "<group>"; };
+		C3C783381D630A670002A4D6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C3D0A6C71D796098009B546B /* WebVideoTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVideoTest.h; sourceTree = "<group>"; };
+		C3D0A6C81D796098009B546B /* WebVideoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebVideoTest.m; sourceTree = "<group>"; };
+		C3DD4E141D77D51E00B90AE9 /* mov_bbb.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = mov_bbb.ogg; sourceTree = "<group>"; };
+		C3DD4E161D77FB0A00B90AE9 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
+		C3DD4E181D782CA300B90AE9 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C3DD4E191D782CA300B90AE9 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C3DD4E1B1D782E8200B90AE9 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		C3E54FF31D5753DC00E41379 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C3E54FF51D57582500E41379 /* CA-Cert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CA-Cert.pem"; sourceTree = "<group>"; };
+		C3E54FF71D57818A00E41379 /* CA-Cert.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CA-Cert.cer"; sourceTree = "<group>"; };
+		C3E728E31D5F532C00BDC272 /* libTestLibA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestLibA.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E728E51D5F532C00BDC272 /* TestLibA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLibA.h; sourceTree = "<group>"; };
+		C3E728E71D5F532C00BDC272 /* TestLibA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLibA.m; sourceTree = "<group>"; };
+		C3FB78DA1D7019D700A3411A /* MyWebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebview.h; sourceTree = "<group>"; };
+		C3FB78DB1D7019D700A3411A /* MyWebview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,8 +86,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C314096C1D146B0000864AB2 /* libGIOSLibrary.a in Frameworks */,
+				C3C783391D630A670002A4D6 /* WebKit.framework in Frameworks */,
+				C3E54FF41D5753DC00E41379 /* Security.framework in Frameworks */,
+				C3881C451D6158DD0098779C /* UTDID.framework in Frameworks */,
 				C336453E1B86EC6600450934 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E728E01D5F532C00BDC272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3881C461D61592D0098779C /* UTDID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,8 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				C33645051B86E2FF00450934 /* GIOSProjectDemo */,
+				C3E728E41D5F532C00BDC272 /* TestLibA */,
 				C336453C1B86EC5D00450934 /* Frameworks */,
 				C33645041B86E2FF00450934 /* Products */,
+				C3881C441D6158DD0098779C /* UTDID.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				C33645031B86E2FF00450934 /* GIOSProjectDemo.app */,
+				C3E728E31D5F532C00BDC272 /* libTestLibA.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,10 +127,20 @@
 		C33645051B86E2FF00450934 /* GIOSProjectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C3E54FF51D57582500E41379 /* CA-Cert.pem */,
+				C3E54FF71D57818A00E41379 /* CA-Cert.cer */,
 				C336450A1B86E2FF00450934 /* AppDelegate.h */,
 				C336450B1B86E2FF00450934 /* AppDelegate.m */,
 				C336450D1B86E2FF00450934 /* ViewController.h */,
 				C336450E1B86E2FF00450934 /* ViewController.m */,
+				C3FB78DA1D7019D700A3411A /* MyWebview.h */,
+				C3DD4E1B1D782E8200B90AE9 /* CommonDefine.h */,
+				C3FB78DB1D7019D700A3411A /* MyWebview.m */,
+				C3DD4E181D782CA300B90AE9 /* TableViewCell.h */,
+				C3DD4E191D782CA300B90AE9 /* TableViewCell.m */,
+				C3DD4E141D77D51E00B90AE9 /* mov_bbb.ogg */,
+				C3DD4E161D77FB0A00B90AE9 /* test.gif */,
+				C3D0A6C41D794645009B546B /* Sample */,
 				C33645101B86E2FF00450934 /* Main.storyboard */,
 				C33645151B86E2FF00450934 /* LaunchScreen.xib */,
 				C33645131B86E2FF00450934 /* Images.xcassets */,
@@ -89,10 +161,50 @@
 		C336453C1B86EC5D00450934 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C314096B1D146B0000864AB2 /* libGIOSLibrary.a */,
+				C3C783381D630A670002A4D6 /* WebKit.framework */,
+				C3E54FF31D5753DC00E41379 /* Security.framework */,
 				C336453D1B86EC6600450934 /* JavaScriptCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D0A6C41D794645009B546B /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0A6C51D794B3F009B546B /* HTTPSTest */,
+				C3D0A6C61D794B3F009B546B /* WebVideoTest */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		C3D0A6C51D794B3F009B546B /* HTTPSTest */ = {
+			isa = PBXGroup;
+			children = (
+				C3A02F5A1D796821008EE6CA /* HTTPSTest.h */,
+				C3A02F5B1D796821008EE6CA /* HTTPSTest.m */,
+				C3A02F5D1D796DD5008EE6CA /* RequestOperation.h */,
+				C3A02F5E1D796DD5008EE6CA /* RequestOperation.m */,
+			);
+			path = HTTPSTest;
+			sourceTree = "<group>";
+		};
+		C3D0A6C61D794B3F009B546B /* WebVideoTest */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0A6C71D796098009B546B /* WebVideoTest.h */,
+				C3D0A6C81D796098009B546B /* WebVideoTest.m */,
+				C3A02F601D7977FF008EE6CA /* advideo.mp4 */,
+			);
+			path = WebVideoTest;
+			sourceTree = "<group>";
+		};
+		C3E728E41D5F532C00BDC272 /* TestLibA */ = {
+			isa = PBXGroup;
+			children = (
+				C3E728E51D5F532C00BDC272 /* TestLibA.h */,
+				C3E728E71D5F532C00BDC272 /* TestLibA.m */,
+			);
+			path = TestLibA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +227,23 @@
 			productReference = C33645031B86E2FF00450934 /* GIOSProjectDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C3E728E21D5F532C00BDC272 /* TestLibA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E728EB1D5F532C00BDC272 /* Build configuration list for PBXNativeTarget "TestLibA" */;
+			buildPhases = (
+				C3E728DF1D5F532C00BDC272 /* Sources */,
+				C3E728E01D5F532C00BDC272 /* Frameworks */,
+				C3E728E11D5F532C00BDC272 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestLibA;
+			productName = TestLibA;
+			productReference = C3E728E31D5F532C00BDC272 /* libTestLibA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -126,6 +255,9 @@
 				TargetAttributes = {
 					C33645021B86E2FF00450934 = {
 						CreatedOnToolsVersion = 6.4;
+					};
+					C3E728E21D5F532C00BDC272 = {
+						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
@@ -143,6 +275,7 @@
 			projectRoot = "";
 			targets = (
 				C33645021B86E2FF00450934 /* GIOSProjectDemo */,
+				C3E728E21D5F532C00BDC272 /* TestLibA */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +287,11 @@
 			files = (
 				C33645121B86E2FF00450934 /* Main.storyboard in Resources */,
 				C33645171B86E2FF00450934 /* LaunchScreen.xib in Resources */,
+				C3DD4E151D77D51E00B90AE9 /* mov_bbb.ogg in Resources */,
+				C3DD4E171D77FB0A00B90AE9 /* test.gif in Resources */,
+				C3E54FF61D57582500E41379 /* CA-Cert.pem in Resources */,
+				C3E54FF81D57818A00E41379 /* CA-Cert.cer in Resources */,
+				C3A02F611D7977FF008EE6CA /* advideo.mp4 in Resources */,
 				C33645141B86E2FF00450934 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,9 +303,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3FB78DC1D7019D700A3411A /* MyWebview.m in Sources */,
+				C3A02F5C1D796821008EE6CA /* HTTPSTest.m in Sources */,
+				C3DD4E1A1D782CA300B90AE9 /* TableViewCell.m in Sources */,
 				C336450F1B86E2FF00450934 /* ViewController.m in Sources */,
 				C336450C1B86E2FF00450934 /* AppDelegate.m in Sources */,
+				C3D0A6C91D796098009B546B /* WebVideoTest.m in Sources */,
 				C33645091B86E2FF00450934 /* main.m in Sources */,
+				C3A02F5F1D796DD5008EE6CA /* RequestOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E728DF1D5F532C00BDC272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E728E81D5F532C00BDC272 /* TestLibA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,14 +430,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AID",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(TARGET_BUILD_DIR)/usr/local/include\"",
 				);
 				INFOPLIST_FILE = GIOSProjectDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,6 +455,7 @@
 					"-Objc",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include/GIOSLibrary";
 			};
 			name = Debug;
@@ -307,14 +464,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AID",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(TARGET_BUILD_DIR)/usr/local/include\"",
 				);
 				INFOPLIST_FILE = GIOSProjectDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -327,6 +489,55 @@
 					"-Objc",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include/GIOSLibrary";
+			};
+			name = Release;
+		};
+		C3E728E91D5F532C00BDC272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AID",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GIOSProjectDemo/GIOS",
+					"$(PROJECT_DIR)/GIOSLibrary/build/Debug-iphoneos",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GIOSLibrary/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include/GIOSLibrary";
+			};
+			name = Debug;
+		};
+		C3E728EA1D5F532C00BDC272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AID",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GIOSProjectDemo/GIOS",
+					"$(PROJECT_DIR)/GIOSLibrary/build/Debug-iphoneos",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GIOSLibrary/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include/GIOSLibrary";
 			};
 			name = Release;
@@ -348,6 +559,15 @@
 			buildConfigurations = (
 				C33645271B86E2FF00450934 /* Debug */,
 				C33645281B86E2FF00450934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E728EB1D5F532C00BDC272 /* Build configuration list for PBXNativeTarget "TestLibA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E728E91D5F532C00BDC272 /* Debug */,
+				C3E728EA1D5F532C00BDC272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

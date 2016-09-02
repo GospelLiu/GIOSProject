@@ -10,7 +10,7 @@
 
 
 
-@interface ViewController : UIViewController<NSURLSessionDelegate>
+@interface ViewController : UITableViewController
 
 
 @end

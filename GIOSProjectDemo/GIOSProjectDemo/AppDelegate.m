@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "GIOSLibrary.h"
 #include <sys/signal.h>
 
 
@@ -21,15 +20,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-   
-    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"AppEXT"])
-    {
-        NSLog(@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"AppEXT"]);
-    }
+  
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
     
+    ViewController *controller = [[ViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    navController.navigationBar.translucent = NO;
     
-    NSLog(@"");
-   
+    self.viewController = navController;
+    self.window.rootViewController = self.viewController;
+    [self.window makeKeyAndVisible];
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+    
     return YES;
 }
 
@@ -59,6 +63,10 @@
     NSLog(@"Application Delegate: Background download task finished");
     
     NSLog(@"");
+}
+
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
+    [[NSURLCache sharedURLCache] removeAllCachedResponses];
 }
 
 @end

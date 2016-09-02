@@ -1,0 +1,6 @@
+framework module GIOSFramework {
+  umbrella header "GIOSFramework.h"
+
+  export *
+  module * { export * }
+}
